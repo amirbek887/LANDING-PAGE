@@ -1,0 +1,92 @@
+
+
+
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(230, 250, 250);
+
+}
+.header-logo {
+  object-fit: cover;
+  flex: 1 1 auto;
+  max-width: 300px;
+  border: 15px solid burlywood;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  gap: 200px;
+  font-size: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 1px;
+  background-image: linear-gradient( 60deg, rgba(57, 60, 90, 0.85), rgba(180, 180, 120, 0.5) ), url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.container-box  {
+  width: 1600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 128px 72px 72px;
+  gap: 24px;
+  padding: 32px;
+  border: 3px solid skyblue;
+  border-radius: 200px;
+  box-shadow: 2px 2px 20px 2px;
+  background: rgba(57, 60, 90, 0.7);
+}
+.container-box h1 {
+  color: burlywood;
+  text-shadow: 2px 2px black;
+}
+.container-content {
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: 1px;
+  padding-left: 32px;
+}
+.container-heading {
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.container-image {
+  object-fit: cover;
+  flex: 1 1 auto;
+  max-width: 300px;
+  border: 15px solid burlywood;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px;
+}
+.container-button {
+  font-weight: 900;
+  padding: 4px 24px;
+  border-radius: 4px;
+  background-color: rgb(230, 250, 250);
+  align-self: center;
+}
